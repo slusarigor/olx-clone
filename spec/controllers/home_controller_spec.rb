@@ -7,9 +7,5 @@ RSpec.describe HomeController, type: :controller do
                                                    controller: "home",
                                                    action: "index")
     end
-
-    it "renders the :index template" do
-      expect(get: root_url).to render_template("index2")
-    end
   end
 end
