@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe 'layouts/_header.html.erb' do
+RSpec.describe 'layouts/_header.html.haml' do
   context 'logged' do
     before do
       allow(view).to receive(:user_signed_in?).and_return(true)

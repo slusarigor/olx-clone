@@ -20,12 +20,14 @@ gem 'jbuilder', '~> 2.5'
 gem 'devise'
 gem 'rspec_junit_formatter'
 gem 'rubocop', require: false
+gem "haml-rails", "~> 1.0"
 
 group :development, :test do
   gem 'database_cleaner'
   gem 'factory_bot_rails'
   gem 'faker'
   gem 'rspec-rails', '~> 3.7'
+  gem 'shoulda'
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
