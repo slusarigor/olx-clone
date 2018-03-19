@@ -6,7 +6,7 @@ require 'rspec/rails'
 require 'devise'
 require 'capybara/rspec'
 require_relative 'support/controller_macros'
-# Dir[Rails.root.join("spec/support/**/*.rb")].each { |f| require f }
+Dir[Rails.root.join('spec/support/**/*.rb')].each { |f| require f }
 ActiveRecord::Migration.maintain_test_schema!
 RSpec.configure do |config|
   # Remove this line if you're not using ActiveRecord or ActiveRecord fixtures
