@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rspec" tests="2" skipped="0" failures="1" errors="0" time="0.075257" timestamp="2018-03-16T17:20:08+02:00" hostname="epualviw1005">
+<properties>
+<property name="seed" value="46820"/>
+</properties>
+<testcase classname="spec.controllers.home_controller_spec" name="HomeController GET index renders the :index template" file="./spec/controllers/home_controller_spec.rb" time="0.010014"><failure message="assert_template has been extracted to a gem. To continue using it,
+        add `gem &apos;rails-controller-testing&apos;` to your Gemfile." type="NoMethodError">Failure/Error: expect(get: root_url).to render_template(&quot;index2&quot;)
+
+NoMethodError:
+  assert_template has been extracted to a gem. To continue using it,
+          add `gem &apos;rails-controller-testing&apos;` to your Gemfile.
+./spec/controllers/home_controller_spec.rb:12:in `block (3 levels) in &lt;top (required)&gt;&apos;</failure></testcase>
+<testcase classname="spec.controllers.home_controller_spec" name="HomeController GET index renders the :index template" file="./spec/controllers/home_controller_spec.rb" time="0.004582"></testcase>
+</testsuite>

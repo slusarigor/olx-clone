@@ -35,6 +35,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 gem 'rspec_junit_formatter'
 gem 'rubocop', require: false
+gem 'devise'
 
 group :development, :test do
   gem 'database_cleaner'
