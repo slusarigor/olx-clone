@@ -33,15 +33,15 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'devise'
 gem 'rspec_junit_formatter'
 gem 'rubocop', require: false
-gem 'devise'
 
 group :development, :test do
   gem 'database_cleaner'
-  gem 'rspec-rails', '~> 3.7'
   gem 'factory_bot_rails'
   gem 'faker'
+  gem 'rspec-rails', '~> 3.7'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   # Adds support for Capybara system testing and selenium driver
