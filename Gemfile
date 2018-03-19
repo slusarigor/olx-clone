@@ -21,6 +21,7 @@ gem 'devise'
 gem 'rspec_junit_formatter'
 gem 'rubocop', require: false
 gem "haml-rails", "~> 1.0"
+gem "administrate"
 
 group :development, :test do
   gem 'database_cleaner'
